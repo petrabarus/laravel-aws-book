@@ -19,6 +19,7 @@ frontend:
       - ls -la      
     build:
       commands:
+      - hugo version
       - hugo
   artifacts:
     baseDirectory: public
