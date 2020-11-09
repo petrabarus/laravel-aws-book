@@ -16,7 +16,7 @@ frontend:
     build:
       commands:
       - hugo version
-      - hugo
+      - hugo --ignoreCache --verbose  --i18n-warnings
   artifacts:
     baseDirectory: public
     files:
